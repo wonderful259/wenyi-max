@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+# 翻译产出（默认输出目录）
+wenyi-output/

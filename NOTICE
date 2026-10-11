@@ -1,0 +1,30 @@
+wenyi-max incorporates and adapts material from two MIT-licensed projects.
+Their full license texts are in licenses/.
+
+1. wenyi — https://github.com/BigDawnGhost/wenyi
+   Copyright (c) 2026 BigDawnGhost (MIT) — licenses/wenyi-LICENSE
+   Adapted (rewritten as standalone scripts, not copied wholesale):
+     scripts/ingest.py           EPUB parsing and segment anchoring
+     scripts/assemble_epub.py    template backfill export
+     scripts/tn_lib.py           punctuation normalization
+     scripts/check_terms.py      glossary conflict detection
+     scripts/context_pack.py     per-batch context injection
+   Also borrows the design ideas of whole-book understanding and
+   paragraph-alignment checks.
+
+2. en-zh-max — https://github.com/3060226349kk-cmd/en-zh-max
+   Copyright (c) 2026 3060226349kk-cmd (MIT) — licenses/en-zh-max-LICENSE
+   Copied verbatim (byte-identical to upstream at the time of writing):
+     references/techniques.md
+     references/text-analysis-and-qa.md
+     references/translationese-symptoms.md
+     references/libertine-vocabulary.md
+     references/literary-fiction-sexual-register.md
+   Condensed from upstream references/methods.md:
+     references/methodology.md
+   The methodology itself comes from Ye Zinan, 《高级英汉翻译理论与实践》
+   (4th ed., Tsinghua University Press, 2020). This repository contains
+   distilled working notes, not the text of the book.
+
+Everything else is original to wenyi-max, released under the MIT License
+(see LICENSE).
