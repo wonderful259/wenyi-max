@@ -1,6 +1,7 @@
 # wenyi-max · 英译中全流程翻译 Skill
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Release](https://img.shields.io/github/v/tag/wonderful259/wenyi-max?label=release)](https://github.com/wonderful259/wenyi-max/tags)
 
 给一本英文书或一篇文章，产出一个**格式还原、经过校验的中文 EPUB**。全程自动，只在「风格确认」时停下来问你一次。
 

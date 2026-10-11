@@ -1,6 +1,8 @@
 ---
 name: wenyi-max
 license: MIT
+metadata:
+  version: "1.0.0"
 description: '英译中全流程翻译流水线，专为科幻小说、奇幻小说和非虚构科技报道设计。输入 EPUB/FB2/TXT/Markdown/HTML/DOCX/PDF 或文章网址，自动完成拆书、全书理解、文本分析与风格提案、（仅此一处请用户确认风格）、逐章串行翻译、术语一致性与机械质检、逐段对照审校、中文润色，最后按原书模板导出还原格式（样式/图片/目录/斜体/链接/脚注）的中文 EPUB，并用 epubcheck 校验。合并了 wenyi（工程流水线）与 en-zh-max（叶子南翻译方法论）。Use when the user wants to translate an English book, novel, sci-fi, fantasy, or tech article/report into Chinese and get an EPUB. Triggers: "翻译这本书", "翻译这篇", "翻译这本小说", "英译中", "translate this book/article into Chinese", "帮我把这个 epub 翻成中文", or whenever the user provides an English EPUB/article for translation.'
 ---
 
